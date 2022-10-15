@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    overflow-x: hidden;
+}
+.banner {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.589)), url(../images/hero-bg.jpg);
+    background-position: center;
+}
+.bannerhead {
+    background: rgba(3, 0, 0, 0.959);
+}
+.title {
+    padding-top: 200px;
+    text-align: center !important;
+    color: white;
+}
+
+.section {
+    border: 2px white solid;
+    height: 150px;
+   margin-bottom: 1rem;
+   color: white !important;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.section:hover {
+    transition:all 1s ease;
+    border: solid 2px  rgb(196, 148, 17);
+    color:rgba(255, 166, 0, 0.897);
+
+}
+.home {
+    border: solid 1px;
+    height: 200px;
+    justify-content: space-between;
+    margin-bottom: 7px;
+    margin-top: 10px;
+    text-align: center;
+}
+.home:hover {
+    transition: all 1s ease;
+    color: orangered;
+    box-shadow: black;
+}
+.cta {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.815), rgba(0, 0, 0, 0.589)), url(../images/cta-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen  and (max-width: 767px){
+    .banner{
+        height: auto !important;
+    }
+}
+
+
