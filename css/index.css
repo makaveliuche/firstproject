@@ -50,10 +50,21 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.plate:hover {
+    box-shadow: 7px;
+    transform: translateY(-20px);
+    transition: all 1s ease;
+    box-shadow: 5px 5px rgba(122, 115, 115, 0.699);
+
+    
+}
 @media screen  and (max-width: 767px){
     .banner{
         height: auto !important;
     }
+}
+.head1 {
+    background: rgba(0, 0, 0, 0.542);
 }
 
 
